@@ -17,7 +17,6 @@ export default function SaleList() {
     );
     const data = response.data;
     setSales(data.documents);
-
     console.log(sales);
   };
 
