@@ -22,7 +22,7 @@ export default function SaleList() {
 
   return (
     <div>
-      <button onClick={getSales}>Sale 가져오기1</button>
+      <button onClick={getSales}>Sale 가져오기2</button>
       {sales.map((sale) => {
         return (
           <div>
